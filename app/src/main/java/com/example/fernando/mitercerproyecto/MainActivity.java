@@ -52,7 +52,7 @@ public class MainActivity extends ActionBarActivity {
             Intent intent = new Intent(this, segundaVentana.class);
             startActivity(intent);
         } else{
-            Toast not = Toast.makeText(this,"Contraseña incorrecta", Toast.LENGTH_LONG);
+            Toast not = Toast.makeText(this,"Contraseña incorrecta!", Toast.LENGTH_LONG);
             not.show();
         }
 
